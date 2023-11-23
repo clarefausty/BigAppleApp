@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Form } from 'react-bootstrap'
 
 
-const Testing = () => {
+const Detail = () => {
   return (
     <div>
         <Container>
@@ -27,4 +27,4 @@ const Testing = () => {
   )
 }
 
-export default Testing
+export default Detail
