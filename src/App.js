@@ -1,11 +1,11 @@
 import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css";
-import Testing from './components/details/Detail';
+import Screen from './components/Screen';
 
 const App = () => {
   return (
     <div>
-      <Testing/>
+      <Screen/>
     </div>
   )
 }
