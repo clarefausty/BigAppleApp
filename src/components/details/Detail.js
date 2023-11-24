@@ -127,7 +127,7 @@ const Detail = () => {
             </div>
             <div className="mb-3 d-sm-flex gap-5">
               <label for="estimate" class="form-label">
-                Estimate
+                violation due date
               </label>
               <input
                 type="text"
@@ -136,7 +136,7 @@ const Detail = () => {
                 aria-describedby="emailHelp"
               />
               <label for="estimate" class="form-label">
-                Estimate
+                date of estimate
               </label>
               <input
                 type="text"
