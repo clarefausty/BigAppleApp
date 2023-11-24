@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Form } from "react-bootstrap";
+import Systemtype from "../systemType/Systemtype";
 
 const Detail = () => {
   const [isViolation, setIsViolation] = useState(false);
@@ -149,6 +150,7 @@ const Detail = () => {
           <button type="submit" class="btn btn-primary">
             Submit
           </button>
+          <Systemtype/>
         </Form>
       </Container>
     </div>
