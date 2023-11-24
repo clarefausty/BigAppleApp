@@ -15,13 +15,12 @@ const Detail = () => {
     <label for="tel" class="form-label">Estimator Phone</label>
     <input type="tel" class="form-control" id="tel" aria-describedby="emailHelp"/>
   </div>
-  <div class="mb-3 d-sm-flex mt-5 gap-3">
-    <label for="" class="form-label">Password</label>
-    <input type="" class="form-control" id="exampleInputPassword1"/>
-    <input type="" class="form-control" id=""/>
-    <input type="" class="form-control" id=""/>
-    <input type="" class="form-control" id=""/>
-    <input type="" class="form-control" id=""/>
+  <div class="mb-3 d-sm-flex mt-5 gap-3 gx-3">
+    <label for="" class="form-label">Building Address</label>
+    <input type="text" class="form-control" id="" placeholder='Street'/>
+    <input  type="text" class="form-control my-3" id="" placeholder='City'/>
+    <input type="text" class="form-control" id="" placeholder='NY'/>
+    <input type="text" class="form-control my-3" id="" placeholder='Zipcode'/>
   </div>
   <div class="mb-3 form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
