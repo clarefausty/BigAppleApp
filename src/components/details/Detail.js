@@ -95,7 +95,7 @@ const Detail = () => {
           </div>
 
 
-          <div className="mb-3 d-sm-flex gap-5">
+          <div className="mb-3 d-sm-flex justify-content-lg-between ">
           <div className="mb-3 ">
           <h3>Is this a violation</h3>
             <div className="form-check form-check-inline">
@@ -125,7 +125,7 @@ const Detail = () => {
               </label>
             </div>
             </div>
-            <div className="mb-3 d-sm-flex gap-3">
+            <div className="mb-3 d-sm-flex gap-5">
               <label for="estimate" class="form-label">
                 Estimate
               </label>
