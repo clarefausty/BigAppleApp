@@ -1,5 +1,5 @@
 import React from 'react'
-import Detail from './details/detail'
+import Detail from './details/Detail'
 
 const Screen = () => {
   return (
