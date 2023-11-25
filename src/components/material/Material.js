@@ -66,8 +66,8 @@ const Material = () => {
               </div>
             {/* </div> */}
             <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
-                <label htmlFor="numberInput" className="form-label">
-                  Elbows
+                <label htmlFor="numberInput" className="form-label w-100">
+                  # of Elbows
                 </label>
                 <input
                   type="number"
@@ -83,26 +83,26 @@ const Material = () => {
         <div className="card">
             {/* <div className="card-body"> */}
               <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center border-bottom">
-                <label htmlFor="elbowsamount" className="form-label">
-                  Elbows
+                <label htmlFor="teesamount" className="form-label">
+                  Tees
                 </label>
                 <input
                   type="number"
                   className="form-control border-0 py-2"
-                  id="elbowsamount"
+                  id="teesamount"
                   placeholder="$03.00"
                 />
               </div>
             {/* </div> */}
            
             <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
-                <label htmlFor="numberInput" className="form-label">
-                  Elbows
+                <label htmlFor="notees" className="form-label w-100">
+                  # of Tees
                 </label>
                 <input
                   type="number"
                   className="form-control  py-2"
-                  id="noofelbows"
+                  id="notees"
                   placeholder="5"
                 />
               </div>

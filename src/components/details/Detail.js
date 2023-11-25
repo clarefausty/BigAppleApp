@@ -13,7 +13,7 @@ const Detail = () => {
       {/* <Container> */}
         {/* <Form class="text-uppercase"> */}
           <div class="mb-3 d-sm-flex mt-5 gap-3">
-            <label for="estimate" class="form-label">
+            <label for="estimate" class="form-label w-100">
               Estimate
             </label>
             <input
@@ -22,7 +22,7 @@ const Detail = () => {
               id="estimate"
               aria-describedby="emailHelp"
             />
-            <label for="name" class="form-label">
+            <label for="name" class="form-label w-100">
               Name of Estimator
             </label>
             <input
@@ -31,7 +31,7 @@ const Detail = () => {
               id="name"
               aria-describedby="emailHelp"
             />
-            <label for="tel" class="form-label">
+            <label for="tel" class="form-label w-100">
               Estimator Phone
             </label>
             <input
@@ -42,7 +42,7 @@ const Detail = () => {
             />
           </div>
           <div class="mb-3 d-sm-flex  gap-3 ">
-            <label for="" class="form-label">
+            <label for="" class="form-label w-100">
               Building Address
             </label>
             <input
@@ -66,7 +66,7 @@ const Detail = () => {
             />
           </div>
           <div class="mb-3 d-sm-flex  gap-3">
-            <label for="estimate" class="form-label">
+            <label for="estimate" class="form-label w-100">
               Req By
             </label>
             <input
@@ -75,7 +75,7 @@ const Detail = () => {
               id="estimate"
               aria-describedby="emailHelp"
             />
-            <label for="name" class="form-label">
+            <label for="name" class="form-label w-100">
               Management or Owner of Building
             </label>
             <input
@@ -84,7 +84,7 @@ const Detail = () => {
               id="name"
               aria-describedby="emailHelp"
             />
-            <label for="tel" class="form-label">
+            <label for="tel" class="form-label w-100">
               Find Test Date
             </label>
             <input
@@ -96,9 +96,13 @@ const Detail = () => {
           </div>
 
 
-          <div className="mb-3 d-sm-flex justify-content-lg-between ">
+          <div className="mb-3 d-sm-flex gap-2 ">
           <div className="mb-3 ">
-          <h3>Is this a violation</h3>
+          <h3
+          className="w-100"
+          style={{ fontSize: '18px' }}
+          >Is this a violation
+          </h3>
             <div className="form-check form-check-inline">
               <input
                 type="checkbox"
@@ -126,7 +130,7 @@ const Detail = () => {
               </label>
             </div>
             </div>
-            <div className="mb-3 d-sm-flex gap-5">
+            <div className="mb-3 d-sm-flex ">
               <label for="estimate" class="form-label">
                 violation due date
               </label>
