@@ -147,9 +147,7 @@ const Detail = () => {
               />
             </div>
             </div>
-          <button type="submit" class="btn btn-primary">
-            Submit
-          </button>
+          
           <Systemtype/>
         </Form>
       </Container>
