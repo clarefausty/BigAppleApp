@@ -38,7 +38,30 @@ const Labour = () => {
             Stright Time
           </label>
         </div>
-        
+        {/* Overtime checkbox */}
+        <div className="form-check form-check-inline w-100">
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="overtime"
+            name="overtime"
+          />
+          <label className="form-check-label" htmlFor="overtime">
+            Over Time
+          </label>
+        </div>
+        {/* Prevailing Wage */}
+        <div className="form-check form-check-inline">
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="prevailing"
+            name="prevailing"
+          />
+          <label className="form-check-label" htmlFor="prevailing">
+            Prevailing Wage
+          </label>
+        </div>
     </div>
   )
 }
