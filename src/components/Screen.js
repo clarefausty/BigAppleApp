@@ -1,9 +1,7 @@
 import React from 'react'
 import { Container, Form } from "react-bootstrap";
 import Detail from './details/Detail'
-import BuildingType from './buildingType/BuildingType'
-import Systemtype from './systemType/Systemtype'
-import Signage from './signage/Signage'
+import Screen2 from '../pages/Screen2';
 
 const Screen = () => {
   return (
@@ -11,9 +9,7 @@ const Screen = () => {
       <Container>
         <Form class="mb-3  mt-5">
         <Detail/>
-        <BuildingType/>
-        <Systemtype/>
-        <Signage/>
+        <Screen2/>
         </Form>
         </Container>
 
