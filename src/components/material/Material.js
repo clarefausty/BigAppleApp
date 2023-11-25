@@ -49,24 +49,64 @@ const Material = () => {
         </div>
         <div className="mt-2">
           <h4>Fittings</h4>
-      {/* <div className="row justify-content-center"> */}
-        {/* <div className="col-md-6"> */}
-          <div className="card">
+      
+      {/* ELBOWS CARD */}
+          <div className="card mb-3">
             {/* <div className="card-body"> */}
-              <div className="mb-3 card-body d-flex">
-                <label htmlFor="numberInput" className="form-label">
-                  Enter a Number:
+              <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center border-bottom">
+                <label htmlFor="elbowsamount" className="form-label">
+                  Elbows
                 </label>
                 <input
                   type="number"
-                  className="form-control"
-                  id="numberInput"
-                  placeholder="Enter a number"
+                  className="form-control border-0 py-2"
+                  id="elbowsamount"
+                  placeholder="$03.00"
                 />
               </div>
             {/* </div> */}
+            <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
+                <label htmlFor="numberInput" className="form-label">
+                  Elbows
+                </label>
+                <input
+                  type="number"
+                  className="form-control  py-2"
+                  id="noofelbows"
+                  placeholder="5"
+                />
+              </div>
           </div>
-        {/* </div> */}
+        
+         {/* TEES CARD */}
+
+        <div className="card">
+            {/* <div className="card-body"> */}
+              <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center border-bottom">
+                <label htmlFor="elbowsamount" className="form-label">
+                  Elbows
+                </label>
+                <input
+                  type="number"
+                  className="form-control border-0 py-2"
+                  id="elbowsamount"
+                  placeholder="$03.00"
+                />
+              </div>
+            {/* </div> */}
+           
+            <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
+                <label htmlFor="numberInput" className="form-label">
+                  Elbows
+                </label>
+                <input
+                  type="number"
+                  className="form-control  py-2"
+                  id="noofelbows"
+                  placeholder="5"
+                />
+              </div>
+          </div>
       {/* </div> */}
     </div>
       </div>
