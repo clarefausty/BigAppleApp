@@ -24,18 +24,18 @@ const Signage = () => {
             name="combolocation"
           />
           <label className="form-check-label" htmlFor="combolocation">
-            Sprinkler
+            Combo Location
           </label>
         </div>
         <div className="form-check form-check-inline">
           <input
             type="checkbox"
             className="form-check-input"
-            id="standpipe"
-            name="standpipe"
+            id="callfdny"
+            name="callfdny"
           />
-          <label className="form-check-label" htmlFor="standpipe">
-            Stand Pipe
+          <label className="form-check-label" htmlFor="callfdny">
+            Call Fdny
           </label>
         </div>
         

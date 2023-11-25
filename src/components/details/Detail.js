@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Container, Form } from "react-bootstrap";
-import Systemtype from "../systemType/Systemtype";
+// import { Container, Form } from "react-bootstrap";
+
 
 const Detail = () => {
   const [isViolation, setIsViolation] = useState(false);
@@ -10,8 +10,8 @@ const Detail = () => {
   };
   return (
     <div>
-      <Container>
-        <Form class="text-uppercase">
+      {/* <Container> */}
+        {/* <Form class="text-uppercase"> */}
           <div class="mb-3 d-sm-flex mt-5 gap-3">
             <label for="estimate" class="form-label">
               Estimate
@@ -147,10 +147,8 @@ const Detail = () => {
               />
             </div>
             </div>
-          
-          <Systemtype/>
-        </Form>
-      </Container>
+        {/* </Form> */}
+      {/* </Container> */}
     </div>
   );
 };
