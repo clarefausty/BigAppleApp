@@ -27,6 +27,18 @@ const Labour = () => {
                 />
               </div>
               <h4 className='text-center'>Type of Labour</h4>
+              <div className="form-check form-check-inline">
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="stright"
+            name="stright"
+          />
+          <label className="form-check-label" htmlFor="stright">
+            Stright Time
+          </label>
+        </div>
+        
     </div>
   )
 }
