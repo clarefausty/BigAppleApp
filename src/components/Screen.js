@@ -9,7 +9,7 @@ const Screen = () => {
   return (
     <div>
       <Container>
-        <Form>
+        <Form class="mb-3  mt-5">
         <Detail/>
         <BuildingType/>
         <Systemtype/>

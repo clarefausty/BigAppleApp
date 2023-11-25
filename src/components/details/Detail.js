@@ -131,7 +131,7 @@ const Detail = () => {
                 violation due date
               </label>
               <input
-                type="text"
+                type="date"
                 class="form-control"
                 id="estimate"
                 aria-describedby="emailHelp"
@@ -140,7 +140,7 @@ const Detail = () => {
                 date of estimate
               </label>
               <input
-                type="text"
+                type="date"
                 class="form-control"
                 id="estimate"
                 aria-describedby="emailHelp"
