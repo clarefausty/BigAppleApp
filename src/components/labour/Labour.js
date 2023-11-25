@@ -2,30 +2,31 @@ import React from 'react'
 
 const Labour = () => {
   return (
-    <div>
-      <h4>Labour</h4>
+    <div className='mt-5 mb-5'>
+      <h4 className='text-center mb-4'>Labour</h4>
       <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
-                <label htmlFor="notees" className="form-label w-100">
-                  # of Tees
+                <label htmlFor="noofmen" className="form-label w-100">
+                  # of Men
                 </label>
                 <input
                   type="number"
                   className="form-control  py-2"
-                  id="notees"
+                  id="noofmen"
                   placeholder="5"
                 />
               </div>
               <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
-                <label htmlFor="notees" className="form-label w-100">
-                  # of Tees
+                <label htmlFor="noofhours" className="form-label w-100">
+                  # of Hours
                 </label>
                 <input
                   type="number"
                   className="form-control  py-2"
-                  id="notees"
+                  id="noofhours"
                   placeholder="5"
                 />
               </div>
+              <h4 className='text-center'>Type of Labour</h4>
     </div>
   )
 }
