@@ -3,52 +3,43 @@ import React, { useState } from "react";
 const Systemtype = () => {
   return (
     <div className="mb-3 mt-5">
-      <h3>Type of Building</h3>
+      <h3>System Type</h3>
       <div className="d-flex flex-column">
         <div className="form-check form-check-inline">
           <input
             type="checkbox"
             className="form-check-input"
-            id="station"
-            name="station"
+            id="combo"
+            name="combo"
           />
-          <label className="form-check-label" htmlFor="station">
-            Central Station
+          <label className="form-check-label" htmlFor="combo">
+            Combo
           </label>
         </div>
         <div className="form-check form-check-inline">
           <input
             type="checkbox"
             className="form-check-input"
-            id="fire"
-            name="fire"
+            id="sprinkler"
+            name="sprinkler"
           />
-          <label className="form-check-label" htmlFor="fire">
-            Fire Pump
+          <label className="form-check-label" htmlFor="sprinkler">
+            Sprinkler
           </label>
         </div>
         <div className="form-check form-check-inline">
           <input
             type="checkbox"
             className="form-check-input"
-            id="jockey"
-            name="jockey"
+            id="standpipe"
+            name="standpipe"
           />
-          <label className="form-check-label" htmlFor="jockey">
-            Jockey Pump
+          <label className="form-check-label" htmlFor="standpipe">
+            Stand Pipe
           </label>
         </div>
-        <div className="form-check form-check-inline">
-          <input
-            type="checkbox"
-            className="form-check-input"
-            id="local"
-            name="local"
-          />
-          <label className="form-check-label" htmlFor="local">
-            Local Pump
-          </label>
-        </div>
+        
+        
       </div>
     </div>
   );
