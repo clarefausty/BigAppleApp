@@ -1,7 +1,10 @@
 import React from 'react'
+import { Container, Form } from "react-bootstrap";
 
 const BuildingType = () => {
   return (
+    <Container>
+    <Form class="mb-3  mt-5">
     <div className="mb-3 mt-5">
       <h3>Type of Building</h3>
       <div className="d-flex flex-column">
@@ -51,6 +54,8 @@ const BuildingType = () => {
         </div>
       </div>
     </div>
+    </Form>
+      </Container>
   )
 }
 

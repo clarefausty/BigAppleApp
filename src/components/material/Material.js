@@ -1,7 +1,10 @@
 import React from 'react'
+import { Container, Form } from "react-bootstrap";
 
 const Material = () => {
   return (
+    <Container>
+    <Form class="mb-3  mt-5">
     <div className="d-flex flex-column align-items-center justify-content-center gap-2">
       <h3 className='text-center'>Material</h3>
       <div className='d-flex flex-column  gap-3'>
@@ -111,6 +114,8 @@ const Material = () => {
     </div>
       </div>
     </div>
+    </Form>
+      </Container>
   )
 }
 

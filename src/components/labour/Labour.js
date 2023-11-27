@@ -1,8 +1,11 @@
 import React from 'react'
+import { Container, Form } from "react-bootstrap";
 
 const Labour = () => {
   return (
-    <div className='mt-5 mb-5'>
+    <Container>
+    <Form class="mb-3  mt-5">
+    <div className='mt-5 mb-3'>
       <h4 className='text-center mb-4'>Labour</h4>
       <div className="mb-3 card-body d-flex gap-5 justify-content-center align-items-center">
                 <label htmlFor="noofmen" className="form-label w-100">
@@ -63,6 +66,8 @@ const Labour = () => {
           </label>
         </div>
     </div>
+    </Form>
+      </Container>
   )
 }
 
