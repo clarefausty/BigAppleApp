@@ -1,20 +1,19 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const ReviewPage = () => {
+const CreateEstimatePage = () => {
   return (
     <div>
-        <h1>Review Page</h1>
+        <h1>Create Estimate</h1>
 
 
-
-        <Link to="/createestimate">
+        <Link to="/submitestimate">
         <button type="button" className="btn btn-primary mb-5">
-        Create Estimate
+        Submit Estimate
       </button>
       </Link>
     </div>
   )
 }
 
-export default ReviewPage
+export default CreateEstimatePage
